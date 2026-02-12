@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 디지털 보물창고</title>
+    <style>
+        /* 여기서부터 CSS(디자인)입니다 */
+        body {
+            font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* 배경색 */
+            color: #333;
+        }
+        .container {
+            max-width: 800px; /* 전체 너비 제한 */
+            margin: 0 auto;  /* 가운데 정렬 */
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            margin-bottom: 30px;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555; /* 마우스 올렸을 때 색상 */
+        }
+        .post-card {
+            border-bottom: 1px solid #eee;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+        img, iframe {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">홈</a>
+        <a href="<img ...>">나의 사진</a>
+        <a href="<iframe> ...">유튜브 백업</a>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>나의 백업 사이트</h1>
+            <p>소중한 기록을 보관하는 공간입니다.</p>
+        </header>
+
+        <main>
+            <div class="post-card">
+                <h2>최근 소식</h2>
+                <p>드디어 깃허브로 저만의 사이트를 개설했습니다! 앞으로 여기에 기록을 차곡차곡 쌓을 예정이에요.</p>
+            </div>
+        </main>
+
+        <footer style="text-align: center; font-size: 0.8em; color: #888;">
+            <p>&copy; 2026 나의 이름. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
